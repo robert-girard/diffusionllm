@@ -4,9 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Replace 'project-name' with your actual GitLab project slug
-  // This ensures assets like CSS/JS load correctly on gitlab.io/project-name/
-  base: './', 
+  // Base path for GitHub Pages: https://robert-girard.github.io/diffusionllm/
+  base: '/diffusionllm/',
   build: {
     outDir: 'dist',
   }
